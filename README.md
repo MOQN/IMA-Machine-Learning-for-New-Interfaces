@@ -1,2 +1,2 @@
 # IMA-MLNI
-IMA Machine Learning for New Interfaces
+Machine Learning for New Interfaces | IMA | NYU Shanghai
