@@ -1,2 +1,5 @@
 # folders
 other/
+
+# files
+.DS_Store

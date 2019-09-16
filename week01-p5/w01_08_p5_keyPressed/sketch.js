@@ -1,5 +1,4 @@
 // IMA NYU Shanghai
-// The Nature of Code
 // MOQN
 // Sep 7 2017
 
@@ -23,7 +22,7 @@ function draw() {
 }
 
 // try keyTyped() and see the printed value of key.
-function keyPressed() {  
+function keyPressed() {
   print(key);
   if (key == 'A') {
     background(random(255), random(255), random(255));

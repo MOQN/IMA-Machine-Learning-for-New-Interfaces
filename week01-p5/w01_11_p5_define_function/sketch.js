@@ -1,5 +1,4 @@
 // IMA NYU Shanghai
-// The Nature of Code
 // MOQN
 // Sep 7 2017
 
@@ -18,7 +17,7 @@ function draw() {
 
   fill(255,100,100);
   star(200, 200, 2.0);
-  
+
   fill(100,255,100);
   star(400, 400, 0.8);
 }
@@ -27,7 +26,7 @@ function star(x,y,s) {
   push();
   translate(x, y);
   scale(s);
-  for (var angle = 0; angle < 360; angle += 72) {
+  for (let angle = 0; angle < 360; angle += 72) {
     push();
     rotate(radians(angle));
     rect(0, 30, 10, 30);

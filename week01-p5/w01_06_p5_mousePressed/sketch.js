@@ -1,5 +1,4 @@
 // IMA NYU Shanghai
-// The Nature of Code
 // MOQN
 // Feb 9 2017
 
@@ -8,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  
+
 }
 
 function mousePressed() {

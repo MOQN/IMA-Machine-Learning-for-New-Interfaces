@@ -1,5 +1,4 @@
 // IMA NYU Shanghai
-// The Nature of Code
 // MOQN
 // Feb 9 2017
 

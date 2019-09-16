@@ -1,9 +1,8 @@
 // IMA NYU Shanghai
-// The Nature of Code
 // MOQN
 // Feb 14 2017
 
-var img;
+let img;
 
 function preload() {
   print("A");
@@ -19,7 +18,7 @@ function setup() {
 
 function draw() {
   background(0);
-  
+
   print("D");
   if (img.width > 1) {
     print("E");

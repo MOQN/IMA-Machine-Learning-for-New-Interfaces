@@ -1,9 +1,8 @@
 // IMA NYU Shanghai
-// The Nature of Code
 // MOQN
 // Feb 14 2017
 
-var img;
+let img;
 
 function setup() {
   createCanvas(600, 600);
@@ -15,7 +14,7 @@ function setup() {
 
 function draw() {
   background(0);
-  
+
   print("C");
   if (img.width > 1) {
     print("D");
@@ -23,4 +22,3 @@ function draw() {
   }
   image(img,0,0,width,height);
 }
-
