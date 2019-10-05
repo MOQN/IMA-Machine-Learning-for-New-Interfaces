@@ -13,6 +13,6 @@ function draw() {
   let distance = dist(pmouseX, pmouseY, mouseX, mouseY);
   let lineWidth = map(distance, 0, 100, 1, 6);
   strokeWeight(lineWidth);
-  stroke(frameCount % 360, 100, 100);
+  stroke(frameCount % 360, 100, 100); // *** % (modulo operator) ***
   line(pmouseX, pmouseY, mouseX, mouseY);
 }
