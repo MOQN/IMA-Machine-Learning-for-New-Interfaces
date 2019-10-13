@@ -74,7 +74,6 @@ function draw() {
     let h = segmentation.raw.height;
     let data = segmentation.raw.data;
 
-    cam.loadPixels(); // ***
     img.loadPixels();
     for (let y = 0; y < h; y++) {
       for (let x = 0; x < w; x++) {
