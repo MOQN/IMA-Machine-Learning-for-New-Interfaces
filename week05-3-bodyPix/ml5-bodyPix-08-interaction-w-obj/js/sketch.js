@@ -51,7 +51,7 @@ function draw() {
         let index = x + y*w; // ***
 
         if ( data[index] == 21 || data[index] == 23) {
-          // if "rightHand" and "leftHand", set the color white
+          // if "rightHand" and "leftHand", set the color red
           img.pixels[index*4 + 0] = 255;
           img.pixels[index*4 + 1] = 0;
           img.pixels[index*4 + 2] = 0;
