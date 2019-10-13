@@ -1,4 +1,4 @@
-// Oct 9 2019
+// Oct 13 2019
 // MOQN
 
 /*
@@ -9,8 +9,11 @@ console.log('ml5 version:', ml5.version);
 
 
 let bodypix;
-let cam;
 let segmentation;
+
+let cam;
+let img;
+
 
 const options = {
   outputStride: 8, // 8, 16, or 32, default is 16
@@ -49,68 +52,53 @@ PartId  PartName
 23      leftHand
 */
 
-let myColor = [
-  '#ffb288',
-  '#e35604',
-  '#a3cfdd',
-  '#83e2ff',
-  '#98c4ff',
-  '#97e0eb',
-  '#9cd0ee',
-  '#3b8b68',
-  '#ace8d4',
-  '#ace8d4',
-  '#ffc0cb',
-  '#6699cc',
-  '#42beda',
-  '#00b8ff',
-  '#0e5218',
-  '#302d7c',
-  '#7760a4',
-  '#97449c',
-  '#a93796',
-  '#d58e88',
-  '#d4af37',
-  '#c52961',
-  '#e57248',
-  '#62827c',
-]
-
 
 function setup() {
   createCanvas(640, 480);
 
   cam = createCapture(cam);
-  cam.size(320, 240);
+  cam.size(width/2, height/2); // 320 x 240
   // cam.hide();
+
+  img = createImage(width/2, height/2);
+
   bodypix = ml5.bodyPix(cam, modelReady);
 }
 
 
 function draw() {
-  background(255);
+  //background(255); // ***
 
   if (segmentation !== undefined) {
     let w = segmentation.raw.width;
     let h = segmentation.raw.height;
     let data = segmentation.raw.data;
 
-    let gridSize = 8;
-    noStroke();
-    for (let y = 0; y < h; y+=gridSize) {
-      for (let x = 0; x < w; x+=gridSize) {
+    cam.loadPixels(); // ***
+    img.loadPixels();
+    for (let y = 0; y < h; y++) {
+      for (let x = 0; x < w; x++) {
         let index = x + y*w; // ***
-        let mappedX = map(x, 0, w, 0, width);
-        let mappedY = map(y, 0, h, 0, height);
 
-        if ( data[index] >= 0 ) {
-          let colorIndex = data[index];
-          fill( myColor[colorIndex] );
-          ellipse(mappedX, mappedY, 10, 10);
+        if ( data[index] == 0 || data[index] == 1) {
+          // if "leftFace" or "rightFace"
+          img.pixels[index*4 + 0] = cam.pixels[index*4 + 0];
+          img.pixels[index*4 + 1] = cam.pixels[index*4 + 1];
+          img.pixels[index*4 + 2] = cam.pixels[index*4 + 2];
+          img.pixels[index*4 + 3] = 255;
+        } else {
+          // transparent
+          img.pixels[index*4 + 0] = 0;
+          img.pixels[index*4 + 1] = 0;
+          img.pixels[index*4 + 2] = 0;
+          img.pixels[index*4 + 3] = 0;
         }
       }
     }
+    img.updatePixels();
   }
+  //image( cam, 0, 0, width, height );
+  image( img, 0, 0, width, height );
 }
 
 
