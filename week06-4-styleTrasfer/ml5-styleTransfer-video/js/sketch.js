@@ -25,7 +25,7 @@ function setup() {
   resultImg = createImg('');
   resultImg.hide();
 
-  style = ml5.styleTransfer('model/style-transfer/mathura', video, modelLoaded);
+  style = ml5.styleTransfer('model/style-transfer/wave', video, modelLoaded);
 }
 
 
