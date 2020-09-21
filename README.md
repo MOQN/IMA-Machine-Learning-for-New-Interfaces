@@ -1,12 +1,11 @@
 # Machine Learning for New Interfaces | Fall 2020
-IMA/NYU Shanghai
+Interactive Media Arts (IMA) at NYU Shanghai
 
 ## Links
+* [Course Note Fall 2020](https://docs.google.com/document/d/1MBcpK88IqJTvbkpKY3PmlM2TGNtiX6srbxajz9vfGtQ/edit?usp=sharing)
+* [W02 Slides](https://docs.google.com/presentation/d/1OIvBJr7e6nnCSyjp8b7ZH2fpwq26ApStI3zjZ5YJ00A/edit?usp=sharing)
+* [W01 Slides](https://docs.google.com/presentation/d/1PMIS6XYmGVMoGYmhsQfxEW8GB8X81R3FT7E18ZAtOA0/edit?usp=sharing)
 * [Syllabus](https://docs.google.com/document/d/16S7vifKo6PL1Ajkxx3VvibLcjKSJSReANrvo1WyqX1M/edit?usp=sharing)
-* W2 Slides
-* W1 Slides
-* Invitation Codes
-* [Course Schedule Overview](https://docs.google.com/document/d/16S7vifKo6PL1Ajkxx3VvibLcjKSJSReANrvo1WyqX1M/edit#bookmark=id.8nz6zyw8v8zb)
 * [Resources](https://docs.google.com/document/d/16S7vifKo6PL1Ajkxx3VvibLcjKSJSReANrvo1WyqX1M/edit#bookmark=id.e9tcnp84v0k7)
 
 ## Course Information
