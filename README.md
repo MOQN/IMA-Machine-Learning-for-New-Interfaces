@@ -15,6 +15,7 @@ Interactive Media Arts (IMA) at NYU Shanghai
   * Virtual Office Hours: Anytime (via Slack direct message or email)
 * Class meeting days and times: 3:15pm to 6:15pm, Tuesday
 * Class room number: Room 824 or Zoom 
+* [Course Schedule Overview](https://docs.google.com/document/d/16S7vifKo6PL1Ajkxx3VvibLcjKSJSReANrvo1WyqX1M/edit#bookmark=id.8nz6zyw8v8zb)
 * [Course Policies](https://docs.google.com/document/d/16S7vifKo6PL1Ajkxx3VvibLcjKSJSReANrvo1WyqX1M/edit#bookmark=id.ja3bsqruugtu)
 
 ### Description
