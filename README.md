@@ -1,7 +1,13 @@
-# Machine Learning for New Interfaces, Fall 2020 | IMA/NYU Shanghai
+# Machine Learning for New Interfaces | Fall 2020
+IMA/NYU Shanghai
 
 ## Links
-Syllabus | Week1 | Week2
+* [Syllabus](https://docs.google.com/document/d/16S7vifKo6PL1Ajkxx3VvibLcjKSJSReANrvo1WyqX1M/edit?usp=sharing)
+* W2 Slides
+* W1 Slides
+* Invitation Codes
+* [Course Schedule Overview](https://docs.google.com/document/d/16S7vifKo6PL1Ajkxx3VvibLcjKSJSReANrvo1WyqX1M/edit#bookmark=id.8nz6zyw8v8zb)
+* [Resources](https://docs.google.com/document/d/16S7vifKo6PL1Ajkxx3VvibLcjKSJSReANrvo1WyqX1M/edit#bookmark=id.e9tcnp84v0k7)
 
 ## Course Information
 * Instructor: [J.H. Moon](jh.moon@nyu.edu)
@@ -10,13 +16,14 @@ Syllabus | Week1 | Week2
   * Virtual Office Hours: Anytime (via Slack direct message or email)
 * Class meeting days and times: 3:15pm to 6:15pm, Tuesday
 * Class room number: Room 824 or Zoom 
+* [Course Policies](https://docs.google.com/document/d/16S7vifKo6PL1Ajkxx3VvibLcjKSJSReANrvo1WyqX1M/edit#bookmark=id.ja3bsqruugtu)
 
-### Course Description
+### Description
 Machine Learning for New Interfaces is an introductory course with the goal of teaching machine learning concepts in an approachable way to students with no prior knowledge.
 
 We will explore diverse and experimental methods in Machine Learning such as classification, recognition, movement prediction and image style translation. By the end of the course, students will be able to create their own interfaces or applications for the web. They will be able to apply fundamental concepts of Machine Learning, recognize Machine Learning models in the world and make Machine Learning projects applicable to everyday life.
  
-### Course Overview and Learning Outcomes
+### Overview and Learning Outcomes
 Learning and teaching Machine Learning can be a daunting task. This class seeks to reverse the conventional methods of teaching Machine Learning by applying a more friendly and approachable style, masking the complexity of the concepts and technologies.
 
 Students will learn the fundamentals of programming first. Then they will use existing machine learning models (pre-trained) and apply them to their own ideas and outputs, similar to the way we utilize physical sensors in Interaction Lab or devices such as Leap Motion and Kinect without a full understanding of its construction or blueprint. Directly experiencing these diverse pre-trained models and techniques, they will apply, step by step, the fundamentals and core concepts of Machine Learning.
