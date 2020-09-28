@@ -3,8 +3,9 @@ Interactive Media Arts (IMA) at NYU Shanghai
 
 ## Links
 * [Course Note Fall 2020](https://docs.google.com/document/d/1MBcpK88IqJTvbkpKY3PmlM2TGNtiX6srbxajz9vfGtQ/edit?usp=sharing)
-* [W02 Slides](https://docs.google.com/presentation/d/1OIvBJr7e6nnCSyjp8b7ZH2fpwq26ApStI3zjZ5YJ00A/edit?usp=sharing)
-* [W01 Slides](https://docs.google.com/presentation/d/1PMIS6XYmGVMoGYmhsQfxEW8GB8X81R3FT7E18ZAtOA0/edit?usp=sharing)
+* W03 [Slides](), [Assignment](https://docs.google.com/document/d/1rNignkVOrC6UIzLkuYSx53bjXlv57YOhGfYLIaeyzSk/edit?usp=sharing)
+* W02 [Slides](https://docs.google.com/presentation/d/1OIvBJr7e6nnCSyjp8b7ZH2fpwq26ApStI3zjZ5YJ00A/edit?usp=sharing), [Case Study](https://docs.google.com/document/d/1Z-MZ5hwKCw52hZQ4JwHbPfWbsbvjeX7ljKxfxKq0MDY/edit?usp=sharing)
+* W01 [Slides](https://docs.google.com/presentation/d/1PMIS6XYmGVMoGYmhsQfxEW8GB8X81R3FT7E18ZAtOA0/edit?usp=sharing), [Assignment](https://docs.google.com/document/d/1mYku2fzMH3MLMjj25lj7xtfu3ZPLu_X-QfRO5qnM_Os/edit?usp=sharing)
 * [Syllabus](https://docs.google.com/document/d/16S7vifKo6PL1Ajkxx3VvibLcjKSJSReANrvo1WyqX1M/edit?usp=sharing)
 * [Resources](https://docs.google.com/document/d/16S7vifKo6PL1Ajkxx3VvibLcjKSJSReANrvo1WyqX1M/edit#bookmark=id.e9tcnp84v0k7)
 
