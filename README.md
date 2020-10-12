@@ -4,6 +4,7 @@ Interactive Media Arts (IMA) at NYU Shanghai
 ## Links
 * [Empty Example for p5.js + ml5.js](https://glitch.com/~empty-example-ml5)
 * [Course Note Fall 2020](https://docs.google.com/document/d/1MBcpK88IqJTvbkpKY3PmlM2TGNtiX6srbxajz9vfGtQ/edit?usp=sharing)
+* W05 BodyPix [[Introduction](), [ml5.js]()], [Assignment]()
 * W04 PoseNet [[Introduction](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5), [Tensorflow/Github](https://github.com/tensorflow/tfjs-models/tree/master/posenet), [ml5.js](https://learn.ml5js.org/#/reference/posenet?id=posenet)], [Assignment](https://docs.google.com/document/d/1a5RavFnFmSUDH9K1adZhDolYZhJ_N3gQF9oD9gbN7ng/edit?usp=sharing)
 * W03 [Slides](https://docs.google.com/presentation/d/15dImXjfKscPf0qHx0jU38uygwAnZd9cKjJFc_mhfbHg/edit?usp=sharing), [Assignment](https://docs.google.com/document/d/1rNignkVOrC6UIzLkuYSx53bjXlv57YOhGfYLIaeyzSk/edit?usp=sharing)
 * W02 [Slides](https://docs.google.com/presentation/d/1OIvBJr7e6nnCSyjp8b7ZH2fpwq26ApStI3zjZ5YJ00A/edit?usp=sharing), [Case Study](https://docs.google.com/document/d/1Z-MZ5hwKCw52hZQ4JwHbPfWbsbvjeX7ljKxfxKq0MDY/edit?usp=sharing)
