@@ -8,7 +8,7 @@ function setup() {
   createCanvas( 640, 480 );
 
   cam = createCapture(VIDEO);
-  //cam.resize(w, y);
+  //cam.resize(w, h);
   //cam.hide();
   img = createImage(width, height);
 }

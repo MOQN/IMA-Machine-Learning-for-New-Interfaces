@@ -7,11 +7,12 @@
 */
 console.log('ml5 version:', ml5.version);
 
-
 let bodypix;
+let bp;
+
 let cam;
-let segmentation;
 let img;
+let mode = 0;
 
 const options = {
   outputStride: 8, // 8, 16, or 32, default is 16
@@ -25,11 +26,12 @@ function setup() {
   cam.size(320, 240);
   // cam.hide();
   bodypix = ml5.bodyPix(cam, modelReady);
+}
 
-  // Create a palette - uncomment to test below
-  createHSBPalette();
-  // createRGBPalette();
-  // createSimplePalette();
+function keyPressed() {
+  if (key >= 0 && key <= 3) {
+    mode = parseInt(key);
+  }
 }
 
 function modelReady() {
@@ -42,44 +44,34 @@ function gotResults(error, result) {
     console.log(error);
     return;
   }
-  segmentation = result;
+  bp = result;
 
-  image(cam, 0, 0, width, height);
-  image(segmentation.image, 0, 0, width, height);
+  //console.log(bp);
+
+  // let's draw the image here.
+  background(0);
+  fill(0, 255, 0);
+  switch (mode) {
+    case 0:
+      image(cam, 0, 0, width, height);
+      break;
+    case 1:
+      image(bp.partMask, 0, 0, width, height);
+      text("partMask", 10, 50);
+      break;
+    case 2:
+      image(bp.personMask, 0, 0, width, height);
+      text("personMask", 10, 50);
+      break;
+    case 3:
+      image(bp.backgroundMask, 0, 0, width, height);
+      text("backgroundMask", 10, 50);
+      break;
+    default:
+      image(cam, 0, 0, width, height);
+      break;
+  }
+  text("Press key 1, 2 or 3 and see the different marks.", 10, 20);
 
   bodypix.segmentWithParts(gotResults, options);
-}
-
-function createSimplePalette() {
-  options.palette = bodypix.config.palette;
-  Object.keys(bodypix.palette).forEach(part => {
-    const r = floor(random(255));
-    const g = floor(random(255));
-    const b = floor(random(255));
-    options.palette[part].color = [r, g, b];
-  });
-}
-
-function createHSBPalette() {
-  colorMode(HSB);
-  options.palette = bodypix.config.palette;
-  Object.keys(options.palette).forEach(part => {
-    const h = floor(random(360));
-    const s = floor(random(100));
-    const b = floor(random(100));
-    const c = color(h, s, b);
-    options.palette[part].color = c;
-  });
-}
-
-function createHSBPalette() {
-  colorMode(RGB);
-  options.palette = bodypix.config.palette;
-  Object.keys(options.palette).forEach(part => {
-    const r = floor(random(255));
-    const g = floor(random(255));
-    const b = floor(random(255));
-    const c = color(r, g, b);
-    options.palette[part].color = c;
-  });
 }

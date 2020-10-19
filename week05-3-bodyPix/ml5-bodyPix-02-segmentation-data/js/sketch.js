@@ -10,7 +10,7 @@ console.log('ml5 version:', ml5.version);
 
 let bodypix;
 let cam;
-let segmentation;
+let bp;
 
 const options = {
   outputStride: 8, // 8, 16, or 32, default is 16
@@ -30,15 +30,15 @@ function setup() {
 
 function draw() {
   background(255);
-  if (segmentation !== undefined) {
-    let w = segmentation.raw.width;
-    let h = segmentation.raw.height;
-    let data = segmentation.raw.data;
+  if (bp !== undefined) {
+    let w = bp.segmentation.width;
+    let h = bp.segmentation.height;
+    let data = bp.segmentation.data;
 
     let gridSize = 10;
 
-    for (let y = 0; y < h; y+=gridSize) {
-      for (let x = 0; x < w; x+=gridSize) {
+    for (let y = 0; y < h; y += gridSize) {
+      for (let x = 0; x < w; x += gridSize) {
         let index = x + y*w; // ***
         let mappedX = map(x, 0, w, 0, width);
         let mappedY = map(y, 0, h, 0, height);
@@ -67,10 +67,10 @@ function gotResults(error, result) {
     console.log(error);
     return;
   }
-  segmentation = result;
+  bp = result;
 
-  //image(segmentation.image, 0, 0, width, height);
-  //console.log( segmentation.raw.data.length ); 320 * 240 - 1
+  //console.log(bp.segmentation);
+  //console.log(bp.segmentation.data.length);  // 320 * 240
 
   bodypix.segmentWithParts(gotResults, options);
 }
