@@ -3,6 +3,10 @@ Interactive Media Arts (IMA) at NYU Shanghai
 
 ## Links
 * [Course Note Fall 2020](https://docs.google.com/document/d/1MBcpK88IqJTvbkpKY3PmlM2TGNtiX6srbxajz9vfGtQ/edit?usp=sharing)
+* W09 What is Neural Network?, KNN Classification
+* W08 Midterm Project Presentation & Peer Review
+* W07 Midterm Project Proposal, Peer Review & Studio Time
+* W06 PitchDection(CREPE)
 * W05 BodyPix [[Introduction](https://medium.com/tensorflow/introducing-bodypix-real-time-person-segmentation-in-the-browser-with-tensorflow-js-f1948126c2a0), [ml5.js](https://learn.ml5js.org/#/reference/bodypix)], UNET [[Introduction](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47), [ml5.js](https://learn.ml5js.org/#/reference/unet)], [Assignment](https://docs.google.com/document/d/1LECOE94vjBQXRKAhVMUtGK_u8d7zfZJW1xFgU8fG79k/edit?usp=sharing)
   * [Empty Example for p5.js + ml5.js](https://glitch.com/edit/#!/empty-example-ml5)
 * W04 PoseNet [[Introduction](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5), [Tensorflow/Github](https://github.com/tensorflow/tfjs-models/tree/master/posenet), [ml5.js](https://learn.ml5js.org/#/reference/posenet?id=posenet)], [Assignment](https://docs.google.com/document/d/1a5RavFnFmSUDH9K1adZhDolYZhJ_N3gQF9oD9gbN7ng/edit?usp=sharing)
