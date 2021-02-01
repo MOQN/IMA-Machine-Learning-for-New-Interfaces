@@ -67,7 +67,7 @@ function startSketchRNN() {
 }
 
 function draw() {
-  // If the mosue is pressed capture the user strokes
+  // If the mouse is pressed capture the user strokes
   if (mouseIsPressed) {
     // Draw line
     stroke(0);

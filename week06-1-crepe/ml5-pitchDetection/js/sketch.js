@@ -45,7 +45,7 @@ function getPitch() {
       console.log( "Frequency:  ", frequency );
       console.log( "Level: ", mic.getLevel() );
     } else {
-      console.log('No pitch detected');
+      //console.log('No pitch detected');
     }
     getPitch();
   })
